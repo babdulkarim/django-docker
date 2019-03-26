@@ -5,7 +5,7 @@ RUN apt-get update && \
 		git \
 		python3-pip \
 		python3-dev \
-		postgresql-10 \
+		# postgresql \
 		libpq-dev \
 		postgresql-client \
 		postgresql-client-common \
