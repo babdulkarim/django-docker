@@ -22,7 +22,8 @@ RUN pip3 install --upgrade pip && pip install \
 	"elasticsearch<3.0" \
 	"freezegun==0.3.11" \
 	"python-memcached==1.59" \
-	"djangorestframework==3.9.4"
+	"djangorestframework==3.9.4" \
+	"pillow=6.1.0"
 
 ENV LANG=en_US.UTF-8 PYTHONHASHSEED=random \
     PATH=/usr/local/python/bin:/usr/local/apache/bin:$PATH \
